@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  color: black;
+  background-color: #F3FDF6;
+  font-family: 'times new roman';
+  font-size: 20px;
+  line-height: 4px
+}
+img {
+  max-height: 175px
+}
+h1{
+  font-family: 'times new roman';
+  font-size: 50px;
+  line-height: 4px
+}
+h2{
+  font-family: 'times new roman';
+  font-size: 15px;
+  line-height: 10px
+}
+h3{
+  font-family: 'times new roman';
+  font-size: 20px;
+  line-height: 30px
+}
+h4{
+  font-family: 'times new roman';
+  font-size: 30px;
+  line-height: 30px
+}
+
+h5{
+  font-family: 'times new roman';
+  font-size: 25px;
+  line-height: 30px
+}
+h6{
+  font-family: 'times new roman';
+  font-size: 15px;
+  line-height: 30px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  line-height: 30px
+}
+.logos {
+  color: yellowgreen;
+  text-decoration: none;
+  line-height: 30px
+}
+#langpython {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 30px
+}
+
+#langR {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 30px
+}
+#langhtml {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 30px
+}
+#langjava {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 30px
+}
+#langcss {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 30px
+}
+.languages {
+  color: black;
+  text-decoration: none;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logos:hover {
+  transition: color 0.3s; /* Optional: Smooth color transition */
+  color: grey; /* Optional: Background color on hover */
+}
+
+.container {
+  width: 1100px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  margin: 50px;
+  border: 1px solid white;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);    /* Light shadow */
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 30px;
+  list-style: none;
+}
+.langimg {
+  max-height: 30px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline i {
+  font-size: 40px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: yellowgreen; /* Background color */
+  color: black; /* Text color */
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Rounds the corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style to indicate a clickable link */
+  transition: background-color 0.3s; /* Optional: Smooth color transition */
+}
+
+.button-link:hover {
+  background-color: grey; /* Optional: Background color on hover */
+}
+
+@media (max-width: 960px) {
+  .container {
+  width: 1100px;
+}
+}
